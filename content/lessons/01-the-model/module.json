@@ -1,0 +1,10 @@
+{
+  "slug": "01-the-model",
+  "title": "The Model — What This Is and How It Works",
+  "description": "Understand what you just activated. The invisible store model, Amazon's infrastructure, and the full operating cycle explained.",
+  "order": 1,
+  "tier": "free",
+  "estimatedTime": "35 min",
+  "lessons": ["what-you-just-activated", "how-amazons-infrastructure-works-for-you", "your-operating-model-explained"],
+  "color": "#F97316"
+}

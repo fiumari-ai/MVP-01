@@ -1,0 +1,802 @@
+[
+  {
+    "id": "s001",
+    "name": "Midwest Wholesale Co.",
+    "category": "Home & Kitchen",
+    "country": "US",
+    "city": "Columbus, OH",
+    "contact_email": "wholesale@midwestwholesale.com",
+    "website": "midwestwholesale.com",
+    "min_order": 250,
+    "verified_at": "2025-03-01",
+    "tags": [
+      "FBA-friendly",
+      "low minimums"
+    ],
+    "notes": "Specializes in kitchen tools and home organization. Approves new sellers quickly with a valid resale certificate. No MAP enforcement on most SKUs."
+  },
+  {
+    "id": "s002",
+    "name": "Pacific Goods Distribution",
+    "category": "Home & Kitchen",
+    "country": "US",
+    "city": "Los Angeles, CA",
+    "contact_email": "accounts@pacificgoodsdist.com",
+    "website": "pacificgoodsdist.com",
+    "min_order": 300,
+    "verified_at": "2025-02-28",
+    "tags": [
+      "FBA-friendly",
+      "wide catalog"
+    ],
+    "notes": "Large catalog covering home decor, kitchenware, and storage. Free freight on orders over $600. Accepts Amazon storefronts as business verification."
+  },
+  {
+    "id": "s003",
+    "name": "Great Lakes Wholesale",
+    "category": "Home & Kitchen",
+    "country": "US",
+    "city": "Cleveland, OH",
+    "contact_email": "sales@greatlakeswholesale.net",
+    "website": "greatlakeswholesale.net",
+    "min_order": 200,
+    "verified_at": "2025-03-05",
+    "tags": [
+      "low minimums",
+      "fast shipping"
+    ],
+    "notes": "Known for fast 2-3 day fulfillment from Ohio. Good for testing products before committing to larger orders. Resale cert required."
+  },
+  {
+    "id": "s004",
+    "name": "Central States Supply",
+    "category": "Home & Kitchen",
+    "country": "US",
+    "city": "Chicago, IL",
+    "contact_email": "wholesale@centralstatessupply.com",
+    "website": "centralstatessupply.com",
+    "min_order": 400,
+    "verified_at": "2025-02-20",
+    "tags": [
+      "MAP enforced",
+      "quality brands"
+    ],
+    "notes": "Carries name-brand kitchen and cookware. MAP enforcement on most brands. Requires proof of Amazon selling history for approval."
+  },
+  {
+    "id": "s005",
+    "name": "SunCoast Wholesale",
+    "category": "Health & Beauty",
+    "country": "US",
+    "city": "Tampa, FL",
+    "contact_email": "trade@suncoastwholesale.com",
+    "website": "suncoastwholesale.com",
+    "min_order": 150,
+    "verified_at": "2025-03-02",
+    "tags": [
+      "low minimums",
+      "FBA-friendly"
+    ],
+    "notes": "Health and personal care specialist. Very accessible for new sellers. Covers skincare, hair care, and vitamins. No Amazon restrictions."
+  },
+  {
+    "id": "s006",
+    "name": "NatureCraft Distribution",
+    "category": "Health & Beauty",
+    "country": "US",
+    "city": "Portland, OR",
+    "contact_email": "orders@naturecraftdist.com",
+    "website": "naturecraftdist.com",
+    "min_order": 200,
+    "verified_at": "2025-02-25",
+    "tags": [
+      "natural products",
+      "growing catalog"
+    ],
+    "notes": "Focuses on natural and organic personal care products. Growing Amazon seller network. State resale certificate plus EIN required."
+  },
+  {
+    "id": "s007",
+    "name": "Northeast Beauty Supply",
+    "category": "Health & Beauty",
+    "country": "US",
+    "city": "New York, NY",
+    "contact_email": "wholesale@nebeautysupply.com",
+    "website": "nebeautysupply.com",
+    "min_order": 350,
+    "verified_at": "2025-02-15",
+    "tags": [
+      "MAP enforced",
+      "premium brands"
+    ],
+    "notes": "Premium beauty brands. MAP enforced strictly. Strong seller support once approved. Good for established operators expanding into beauty."
+  },
+  {
+    "id": "s008",
+    "name": "CoreFit Distribution",
+    "category": "Sports & Outdoors",
+    "country": "US",
+    "city": "Denver, CO",
+    "contact_email": "wholesale@corefitdist.com",
+    "website": "corefitdist.com",
+    "min_order": 200,
+    "verified_at": "2025-03-03",
+    "tags": [
+      "FBA-friendly",
+      "fast approval"
+    ],
+    "notes": "Fitness accessories and outdoor gear. Fast account approval. Works extensively with Amazon FBA sellers. Strong in yoga, resistance bands, and recovery gear."
+  },
+  {
+    "id": "s009",
+    "name": "Summit Sports Supply",
+    "category": "Sports & Outdoors",
+    "country": "US",
+    "city": "Salt Lake City, UT",
+    "contact_email": "accounts@summitsportssupply.com",
+    "website": "summitsportssupply.com",
+    "min_order": 300,
+    "verified_at": "2025-02-22",
+    "tags": [
+      "outdoor focus",
+      "seasonal peaks"
+    ],
+    "notes": "Hiking, camping, and outdoor accessories. Seasonal demand peaks in spring/summer. Good margin potential. Amazon seller approved."
+  },
+  {
+    "id": "s010",
+    "name": "ActiveLife Wholesale",
+    "category": "Sports & Outdoors",
+    "country": "US",
+    "city": "Phoenix, AZ",
+    "contact_email": "trade@activelifewholesale.com",
+    "website": "activelifewholesale.com",
+    "min_order": 250,
+    "verified_at": "2025-03-01",
+    "tags": [
+      "FBA-friendly",
+      "wide selection"
+    ],
+    "notes": "Broad sports and outdoor catalog. Competitive pricing on fitness accessories. Easy account opening for new Amazon sellers with resale cert."
+  },
+  {
+    "id": "s011",
+    "name": "TechLine Accessories",
+    "category": "Electronics Accessories",
+    "country": "US",
+    "city": "Austin, TX",
+    "contact_email": "wholesale@techlineacc.com",
+    "website": "techlineacc.com",
+    "min_order": 300,
+    "verified_at": "2025-02-28",
+    "tags": [
+      "FBA-friendly",
+      "no IP issues"
+    ],
+    "notes": "Phone cases, charging cables, screen protectors. No brand exclusivity issues on their catalog. Good margins. Amazon-friendly."
+  },
+  {
+    "id": "s012",
+    "name": "Digital Depot Distribution",
+    "category": "Electronics Accessories",
+    "country": "US",
+    "city": "Dallas, TX",
+    "contact_email": "sales@digitaldepotonline.com",
+    "website": "digitaldepotonline.com",
+    "min_order": 400,
+    "verified_at": "2025-02-18",
+    "tags": [
+      "wide catalog",
+      "MAP enforced"
+    ],
+    "notes": "Large electronics accessories catalog. MAP enforced on some brand lines. Requires invoice submission for category approval."
+  },
+  {
+    "id": "s013",
+    "name": "Pacific Tech Supply",
+    "category": "Electronics Accessories",
+    "country": "US",
+    "city": "San Jose, CA",
+    "contact_email": "wholesale@pacifictechsupply.com",
+    "website": "pacifictechsupply.com",
+    "min_order": 250,
+    "verified_at": "2025-03-04",
+    "tags": [
+      "FBA-friendly",
+      "fast shipping"
+    ],
+    "notes": "West coast tech accessories distributor. Fast 2-day shipping to CA, OR, WA. Broad catalog of phone and tablet accessories."
+  },
+  {
+    "id": "s014",
+    "name": "Happy Paws Wholesale",
+    "category": "Pet Supplies",
+    "country": "US",
+    "city": "Nashville, TN",
+    "contact_email": "trade@happypawswholesale.com",
+    "website": "happypawswholesale.com",
+    "min_order": 150,
+    "verified_at": "2025-03-06",
+    "tags": [
+      "low minimums",
+      "FBA-friendly"
+    ],
+    "notes": "Dog and cat accessories specialist. Very accessible for new sellers. Covers collars, leashes, feeders, grooming tools. No MAP on most items."
+  },
+  {
+    "id": "s015",
+    "name": "AllPets Distribution",
+    "category": "Pet Supplies",
+    "country": "US",
+    "city": "Atlanta, GA",
+    "contact_email": "wholesale@allpetsdist.com",
+    "website": "allpetsdist.com",
+    "min_order": 200,
+    "verified_at": "2025-02-27",
+    "tags": [
+      "wide catalog",
+      "fast approval"
+    ],
+    "notes": "Full pet supplies catalog. New seller applications approved within 48 hours. Good working relationship with Amazon FBA community."
+  },
+  {
+    "id": "s016",
+    "name": "National Pet Supply",
+    "category": "Pet Supplies",
+    "country": "US",
+    "city": "Cincinnati, OH",
+    "contact_email": "accounts@nationalpetsupply.com",
+    "website": "nationalpetsupply.com",
+    "min_order": 350,
+    "verified_at": "2025-02-20",
+    "tags": [
+      "established supplier",
+      "MAP enforced"
+    ],
+    "notes": "Long-established pet supply distributor. MAP on some brand lines. Good catalog depth and reliable order fulfillment."
+  },
+  {
+    "id": "s017",
+    "name": "ProTools Distribution",
+    "category": "Tools & Hardware",
+    "country": "US",
+    "city": "Detroit, MI",
+    "contact_email": "wholesale@protoolsdist.com",
+    "website": "protoolsdist.com",
+    "min_order": 300,
+    "verified_at": "2025-03-02",
+    "tags": [
+      "FBA-friendly",
+      "strong margins"
+    ],
+    "notes": "Hand tools, power tool accessories, and hardware. Strong margin potential. No brand restrictions on generic lines. Good for FBA."
+  },
+  {
+    "id": "s018",
+    "name": "Build Supply Co.",
+    "category": "Tools & Hardware",
+    "country": "US",
+    "city": "Pittsburgh, PA",
+    "contact_email": "trade@buildsupplyco.com",
+    "website": "buildsupplyco.com",
+    "min_order": 250,
+    "verified_at": "2025-02-24",
+    "tags": [
+      "low minimums",
+      "hardware focus"
+    ],
+    "notes": "Hardware accessories and mounting solutions. Good entry point for tools category. Accessible minimums and straightforward account process."
+  },
+  {
+    "id": "s019",
+    "name": "WorkPro Wholesale",
+    "category": "Tools & Hardware",
+    "country": "US",
+    "city": "Houston, TX",
+    "contact_email": "accounts@workprowholesale.com",
+    "website": "workprowholesale.com",
+    "min_order": 400,
+    "verified_at": "2025-02-19",
+    "tags": [
+      "MAP enforced",
+      "professional grade"
+    ],
+    "notes": "Professional grade tools and accessories. MAP enforced. Better for established operators who can meet volume requirements."
+  },
+  {
+    "id": "s020",
+    "name": "PlayTime Wholesale",
+    "category": "Toys & Games",
+    "country": "US",
+    "city": "Minneapolis, MN",
+    "contact_email": "wholesale@playtimewholesale.com",
+    "website": "playtimewholesale.com",
+    "min_order": 200,
+    "verified_at": "2025-03-05",
+    "tags": [
+      "FBA-friendly",
+      "seasonal peaks"
+    ],
+    "notes": "Educational toys and games. Strong Q4 seasonal demand. Good year-round margin on STEM items. Amazon gating may apply to some toy brands."
+  },
+  {
+    "id": "s021",
+    "name": "FunZone Distribution",
+    "category": "Toys & Games",
+    "country": "US",
+    "city": "Kansas City, MO",
+    "contact_email": "sales@funzonedist.com",
+    "website": "funzonedist.com",
+    "min_order": 250,
+    "verified_at": "2025-02-26",
+    "tags": [
+      "FBA-friendly",
+      "generic lines"
+    ],
+    "notes": "Outdoor play and generic toy lines. No major brand exclusivity issues. Good for operators avoiding toy category gating complications."
+  },
+  {
+    "id": "s022",
+    "name": "OfficePlus Distribution",
+    "category": "Office Supplies",
+    "country": "US",
+    "city": "Charlotte, NC",
+    "contact_email": "wholesale@officeplusdist.com",
+    "website": "officeplusdist.com",
+    "min_order": 150,
+    "verified_at": "2025-03-04",
+    "tags": [
+      "low minimums",
+      "FBA-friendly"
+    ],
+    "notes": "Office supplies and stationery specialist. Very low minimums good for testing. Consistent demand and less competition than home goods."
+  },
+  {
+    "id": "s023",
+    "name": "DeskReady Wholesale",
+    "category": "Office Supplies",
+    "country": "US",
+    "city": "Boston, MA",
+    "contact_email": "accounts@deskreadywholesale.com",
+    "website": "deskreadywholesale.com",
+    "min_order": 200,
+    "verified_at": "2025-02-23",
+    "tags": [
+      "FBA-friendly",
+      "WFH focus"
+    ],
+    "notes": "Work-from-home office accessories. Monitor stands, cable management, ergonomic accessories. Easy account approval."
+  },
+  {
+    "id": "s024",
+    "name": "OfficeSource Supply",
+    "category": "Office Supplies",
+    "country": "US",
+    "city": "Philadelphia, PA",
+    "contact_email": "trade@officesourcesupply.com",
+    "website": "officesourcesupply.com",
+    "min_order": 300,
+    "verified_at": "2025-02-17",
+    "tags": [
+      "established",
+      "wide catalog"
+    ],
+    "notes": "Large office supply catalog. Good for operators listing multiple SKUs from one supplier. Volume pricing available at $1,000+ orders."
+  },
+  {
+    "id": "s025",
+    "name": "Northwest Organics",
+    "category": "Health & Beauty",
+    "country": "US",
+    "city": "Seattle, WA",
+    "contact_email": "wholesale@nworganics.com",
+    "website": "nworganics.com",
+    "min_order": 250,
+    "verified_at": "2025-03-03",
+    "tags": [
+      "organic certified",
+      "growing demand"
+    ],
+    "notes": "Certified organic personal care. Growing Amazon demand. Require proof of business for account opening. No Amazon restrictions."
+  },
+  {
+    "id": "s026",
+    "name": "SouthStar Distribution",
+    "category": "Home & Kitchen",
+    "country": "US",
+    "city": "Dallas, TX",
+    "contact_email": "wholesale@southstardist.com",
+    "website": "southstardist.com",
+    "min_order": 300,
+    "verified_at": "2025-02-28",
+    "tags": [
+      "state resale cert required",
+      "MAP enforced"
+    ],
+    "notes": "Requires state resale certificate to open an account. MAP enforced on most kitchen lines. Strong catalog in cookware and bakeware."
+  },
+  {
+    "id": "s027",
+    "name": "GreenLeaf Supplies",
+    "category": "Health & Beauty",
+    "country": "US",
+    "city": "Austin, TX",
+    "contact_email": "trade@greenleafsupplies.com",
+    "website": "greenleafsupplies.com",
+    "min_order": 175,
+    "verified_at": "2025-03-07",
+    "tags": [
+      "low minimums",
+      "eco-friendly"
+    ],
+    "notes": "Eco-friendly personal care and cleaning products. Emerging Amazon demand. Low minimums ideal for testing. No MAP on most lines."
+  },
+  {
+    "id": "s028",
+    "name": "HomeBase Wholesale",
+    "category": "Home & Kitchen",
+    "country": "US",
+    "city": "Indianapolis, IN",
+    "contact_email": "accounts@homebasewholesale.com",
+    "website": "homebasewholesale.com",
+    "min_order": 200,
+    "verified_at": "2025-03-01",
+    "tags": [
+      "FBA-friendly",
+      "storage focus"
+    ],
+    "notes": "Home organization and storage solutions. Strong and consistent Amazon demand. Easy account approval with resale cert."
+  },
+  {
+    "id": "s029",
+    "name": "ProActive Fitness",
+    "category": "Sports & Outdoors",
+    "country": "US",
+    "city": "San Diego, CA",
+    "contact_email": "wholesale@proactivefitness.com",
+    "website": "proactivefitness.com",
+    "min_order": 300,
+    "verified_at": "2025-02-25",
+    "tags": [
+      "FBA-friendly",
+      "fitness accessories"
+    ],
+    "notes": "Fitness bands, weights, yoga accessories. Competitive prices on generic fitness accessories with good margins."
+  },
+  {
+    "id": "s030",
+    "name": "TerraFirm Outdoors",
+    "category": "Sports & Outdoors",
+    "country": "US",
+    "city": "Portland, OR",
+    "contact_email": "sales@terrafirmoutdoors.com",
+    "website": "terrafirmoutdoors.com",
+    "min_order": 250,
+    "verified_at": "2025-02-22",
+    "tags": [
+      "outdoor gear",
+      "seasonal"
+    ],
+    "notes": "Camping, hiking, and outdoor accessories. Strong Q2-Q3 demand. Amazon-friendly policy. New seller accounts accepted with standard documentation."
+  },
+  {
+    "id": "s031",
+    "name": "QuickShip Wholesale",
+    "category": "Home & Kitchen",
+    "country": "US",
+    "city": "Memphis, TN",
+    "contact_email": "wholesale@quickshipwholesale.com",
+    "website": "quickshipwholesale.com",
+    "min_order": 200,
+    "verified_at": "2025-03-06",
+    "tags": [
+      "fast shipping",
+      "FBA-friendly"
+    ],
+    "notes": "Known for 24-48hr ship times from Tennessee. Good for operators needing fast inventory replenishment. Broad home goods catalog."
+  },
+  {
+    "id": "s032",
+    "name": "MetroPet Supply",
+    "category": "Pet Supplies",
+    "country": "US",
+    "city": "Los Angeles, CA",
+    "contact_email": "trade@metropetsupply.com",
+    "website": "metropetsupply.com",
+    "min_order": 200,
+    "verified_at": "2025-03-04",
+    "tags": [
+      "FBA-friendly",
+      "premium pet"
+    ],
+    "notes": "Premium and specialty pet products. Good margin on premium accessories. Covers dogs, cats, small animals. Amazon-approved seller program."
+  },
+  {
+    "id": "s033",
+    "name": "NorthAmerica Hardware",
+    "category": "Tools & Hardware",
+    "country": "US",
+    "city": "Cleveland, OH",
+    "contact_email": "wholesale@nahardware.com",
+    "website": "nahardware.com",
+    "min_order": 350,
+    "verified_at": "2025-02-20",
+    "tags": [
+      "established",
+      "strong catalog"
+    ],
+    "notes": "Established hardware distributor with deep catalog. Good for operators building a multi-SKU tools business. Volume pricing at $1,500+."
+  },
+  {
+    "id": "s034",
+    "name": "SmartOffice Supply",
+    "category": "Office Supplies",
+    "country": "US",
+    "city": "Denver, CO",
+    "contact_email": "accounts@smartofficesupply.com",
+    "website": "smartofficesupply.com",
+    "min_order": 175,
+    "verified_at": "2025-03-05",
+    "tags": [
+      "low minimums",
+      "tech accessories"
+    ],
+    "notes": "Office tech accessories. Webcams, desk organizers, laptop stands. Strong WFH demand. Quick account approval."
+  },
+  {
+    "id": "s035",
+    "name": "CleanHome Distribution",
+    "category": "Home & Kitchen",
+    "country": "US",
+    "city": "St. Louis, MO",
+    "contact_email": "wholesale@cleanhomedist.com",
+    "website": "cleanhomedist.com",
+    "min_order": 200,
+    "verified_at": "2025-02-26",
+    "tags": [
+      "cleaning supplies",
+      "FBA-friendly"
+    ],
+    "notes": "Cleaning accessories and home care products. Consistent Amazon demand. Good on microfiber, spray bottles, cleaning tools. New sellers welcome."
+  },
+  {
+    "id": "s036",
+    "name": "Vitality Wellness Supply",
+    "category": "Health & Beauty",
+    "country": "US",
+    "city": "Miami, FL",
+    "contact_email": "trade@vitalitywellness.com",
+    "website": "vitalitywellnesssupply.com",
+    "min_order": 200,
+    "verified_at": "2025-03-02",
+    "tags": [
+      "supplements",
+      "FBA-friendly"
+    ],
+    "notes": "Vitamins, supplements, and wellness accessories. High Amazon demand. Supplements may require Seller Central category approval before listing."
+  },
+  {
+    "id": "s037",
+    "name": "KidsFirst Wholesale",
+    "category": "Toys & Games",
+    "country": "US",
+    "city": "Columbus, OH",
+    "contact_email": "accounts@kidsfirstwholesale.com",
+    "website": "kidsfirstwholesale.com",
+    "min_order": 250,
+    "verified_at": "2025-02-28",
+    "tags": [
+      "educational toys",
+      "FBA-friendly"
+    ],
+    "notes": "Educational and developmental toys. Avoids brand-licensed items that trigger gating. Good catalog for a steady year-round toy business."
+  },
+  {
+    "id": "s038",
+    "name": "Apex Sporting Goods",
+    "category": "Sports & Outdoors",
+    "country": "US",
+    "city": "Atlanta, GA",
+    "contact_email": "wholesale@apexsportinggoods.com",
+    "website": "apexsportinggoods.com",
+    "min_order": 300,
+    "verified_at": "2025-02-24",
+    "tags": [
+      "team sports",
+      "FBA-friendly"
+    ],
+    "notes": "Team sports accessories and training gear. Good margins on training equipment. Covers basketball, soccer, football accessories."
+  },
+  {
+    "id": "s039",
+    "name": "ClearView Electronics",
+    "category": "Electronics Accessories",
+    "country": "US",
+    "city": "Las Vegas, NV",
+    "contact_email": "trade@clearviewelec.com",
+    "website": "clearviewelectronics.com",
+    "min_order": 250,
+    "verified_at": "2025-03-03",
+    "tags": [
+      "FBA-friendly",
+      "audio accessories"
+    ],
+    "notes": "Audio accessories, cables, and electronic peripherals. No brand IP issues on their catalog. Consistent Amazon demand."
+  },
+  {
+    "id": "s040",
+    "name": "Sunrise Home Goods",
+    "category": "Home & Kitchen",
+    "country": "US",
+    "city": "Sacramento, CA",
+    "contact_email": "wholesale@sunrisehomegoods.com",
+    "website": "sunrisehomegoods.com",
+    "min_order": 200,
+    "verified_at": "2025-03-05",
+    "tags": [
+      "bedding accessories",
+      "FBA-friendly"
+    ],
+    "notes": "Bedding accessories, throws, and home textiles. Good margins. New seller accounts approved with state resale cert."
+  },
+  {
+    "id": "s041",
+    "name": "BlueSky Home Essentials",
+    "category": "Home & Kitchen",
+    "country": "US",
+    "city": "Nashville, TN",
+    "contact_email": "wholesale@blueskyhome.com",
+    "website": "blueskyhome.com",
+    "min_order": 175,
+    "verified_at": "2025-03-06",
+    "tags": [
+      "low minimums",
+      "FBA-friendly"
+    ],
+    "notes": "Home essentials and small appliance accessories. Low minimum first order. No Amazon restrictions. Fast account opening with EIN."
+  },
+  {
+    "id": "s042",
+    "name": "EcoWell Distribution",
+    "category": "Health & Beauty",
+    "country": "US",
+    "city": "San Francisco, CA",
+    "contact_email": "trade@ecowelldist.com",
+    "website": "ecowelldist.com",
+    "min_order": 225,
+    "verified_at": "2025-03-04",
+    "tags": [
+      "eco-friendly",
+      "growing catalog"
+    ],
+    "notes": "Sustainable personal care and beauty. Growing Amazon demand category. Resale cert plus website required for approval."
+  },
+  {
+    "id": "s043",
+    "name": "PowerPet Wholesale",
+    "category": "Pet Supplies",
+    "country": "US",
+    "city": "Phoenix, AZ",
+    "contact_email": "accounts@powerpetw.com",
+    "website": "powerpet.com",
+    "min_order": 200,
+    "verified_at": "2025-03-01",
+    "tags": [
+      "FBA-friendly",
+      "dog focus"
+    ],
+    "notes": "Dog-specific supplies and accessories. Strong Amazon demand. Easy approval with resale cert. Good margin on training and enrichment products."
+  },
+  {
+    "id": "s044",
+    "name": "FirstStep Tools",
+    "category": "Tools & Hardware",
+    "country": "US",
+    "city": "Kansas City, MO",
+    "contact_email": "wholesale@firststeptools.com",
+    "website": "firststeptools.com",
+    "min_order": 200,
+    "verified_at": "2025-03-03",
+    "tags": [
+      "low minimums",
+      "hand tools"
+    ],
+    "notes": "Hand tool accessories and organizing solutions. Low minimum for tools category. Good for operators entering hardware without large capital commitment."
+  },
+  {
+    "id": "s045",
+    "name": "SportZone Supply",
+    "category": "Sports & Outdoors",
+    "country": "US",
+    "city": "Charlotte, NC",
+    "contact_email": "trade@sportzonesupply.com",
+    "website": "sportzonesupply.com",
+    "min_order": 250,
+    "verified_at": "2025-02-27",
+    "tags": [
+      "FBA-friendly",
+      "accessories focus"
+    ],
+    "notes": "Sports accessories and training aids. Consistent Amazon demand. FBA-friendly with easy account approval. No MAP on most accessory lines."
+  },
+  {
+    "id": "s046",
+    "name": "LearnerPack Wholesale",
+    "category": "Toys & Games",
+    "country": "US",
+    "city": "Austin, TX",
+    "contact_email": "accounts@learnerpackw.com",
+    "website": "learnerpack.com",
+    "min_order": 200,
+    "verified_at": "2025-03-05",
+    "tags": [
+      "educational",
+      "FBA-friendly"
+    ],
+    "notes": "Learning kits and educational games for ages 3-12. Strong year-round demand. Avoids licensed character products. New sellers accepted."
+  },
+  {
+    "id": "s047",
+    "name": "MegaDesk Supply",
+    "category": "Office Supplies",
+    "country": "US",
+    "city": "Seattle, WA",
+    "contact_email": "wholesale@megadesksupply.com",
+    "website": "megadesksupply.com",
+    "min_order": 175,
+    "verified_at": "2025-03-06",
+    "tags": [
+      "WFH accessories",
+      "FBA-friendly"
+    ],
+    "notes": "Desk accessories, organization, and productivity tools. Strong sustained demand. Low minimum. Good entry point for office category."
+  },
+  {
+    "id": "s048",
+    "name": "IronCore Distribution",
+    "category": "Sports & Outdoors",
+    "country": "US",
+    "city": "Boston, MA",
+    "contact_email": "sales@ironcoredist.com",
+    "website": "ironcoredist.com",
+    "min_order": 300,
+    "verified_at": "2025-02-23",
+    "tags": [
+      "gym equipment accessories",
+      "FBA-friendly"
+    ],
+    "notes": "Home gym accessories and training gear. Post-2020 demand remains elevated. Resistance bands, lifting accessories, recovery tools."
+  },
+  {
+    "id": "s049",
+    "name": "HomeGarden Plus",
+    "category": "Home & Kitchen",
+    "country": "US",
+    "city": "Orlando, FL",
+    "contact_email": "wholesale@homegardplus.com",
+    "website": "homegardenplus.com",
+    "min_order": 200,
+    "verified_at": "2025-03-02",
+    "tags": [
+      "garden accessories",
+      "FBA-friendly"
+    ],
+    "notes": "Indoor and outdoor garden accessories. Seasonal peaks spring through fall. Good catalog for operators looking at outdoor home goods."
+  },
+  {
+    "id": "s050",
+    "name": "FlexTech Wholesale",
+    "category": "Electronics Accessories",
+    "country": "US",
+    "city": "Austin, TX",
+    "contact_email": "trade@flextechw.com",
+    "website": "flextechw.com",
+    "min_order": 250,
+    "verified_at": "2025-03-04",
+    "tags": [
+      "charging accessories",
+      "FBA-friendly"
+    ],
+    "notes": "USB-C, wireless charging, and cable management accessories. High Amazon search volume. No brand IP complications. Good margin potential."
+  }
+]

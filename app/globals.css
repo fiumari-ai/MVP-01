@@ -1,0 +1,197 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 6%;
+    --foreground: 0 0% 91%;
+    --card: 0 0% 10%;
+    --card-foreground: 0 0% 91%;
+    --popover: 0 0% 10%;
+    --popover-foreground: 0 0% 91%;
+    --primary: 24 95% 53%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 0 0% 16%;
+    --secondary-foreground: 0 0% 91%;
+    --muted: 0 0% 16%;
+    --muted-foreground: 0 0% 53%;
+    --accent: 0 0% 16%;
+    --accent-foreground: 0 0% 91%;
+    --destructive: 0 62% 30%;
+    --destructive-foreground: 0 0% 91%;
+    --border: 0 0% 16%;
+    --input: 0 0% 16%;
+    --ring: 24 95% 53%;
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-brand-dark text-brand-text antialiased;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-brand-text font-semibold;
+  }
+
+  a {
+    @apply transition-colors;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0F0F0F;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2A2A2A;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3A3A3A;
+}
+
+/* MDX content styles */
+.mdx-content {
+  @apply text-brand-text leading-relaxed;
+}
+
+.mdx-content h1 {
+  @apply text-3xl font-bold mb-6 text-white;
+}
+
+.mdx-content h2 {
+  @apply text-2xl font-semibold mb-4 mt-8 text-white;
+}
+
+.mdx-content h3 {
+  @apply text-xl font-semibold mb-3 mt-6 text-brand-text;
+}
+
+.mdx-content p {
+  @apply mb-4 text-brand-text leading-7;
+}
+
+.mdx-content ul {
+  @apply mb-4 ml-6 space-y-2;
+}
+
+.mdx-content ul li {
+  @apply list-disc text-brand-text;
+}
+
+.mdx-content ol {
+  @apply mb-4 ml-6 space-y-2;
+}
+
+.mdx-content ol li {
+  @apply list-decimal text-brand-text;
+}
+
+.mdx-content strong {
+  @apply font-semibold text-white;
+}
+
+.mdx-content em {
+  @apply italic;
+}
+
+.mdx-content blockquote {
+  @apply border-l-4 border-brand-orange pl-4 my-4 text-brand-muted italic;
+}
+
+.mdx-content code {
+  @apply bg-brand-surface px-2 py-1 rounded text-brand-orange text-sm font-mono;
+}
+
+.mdx-content pre {
+  @apply bg-brand-surface p-4 rounded-lg overflow-x-auto mb-4;
+}
+
+.mdx-content pre code {
+  @apply bg-transparent p-0 text-brand-text;
+}
+
+.mdx-content a {
+  @apply text-brand-orange underline hover:text-orange-400;
+}
+
+.mdx-content hr {
+  @apply border-brand-border my-8;
+}
+
+/* Glow effects */
+.glow-orange {
+  box-shadow: 0 0 20px rgba(249, 115, 22, 0.3);
+}
+
+.glow-amber {
+  box-shadow: 0 0 20px rgba(245, 158, 11, 0.3);
+}
+
+/* Gradient text */
+.gradient-text {
+  @apply bg-clip-text text-transparent;
+  background-image: linear-gradient(135deg, #ffffff 0%, #F97316 50%, #F59E0B 100%);
+}
+
+/* Pro badge */
+.pro-badge {
+  @apply bg-brand-amber text-black text-xs font-bold px-2 py-0.5 rounded-full uppercase tracking-wide;
+}
+
+/* Glass effect */
+.glass {
+  background: rgba(26, 26, 26, 0.8);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(42, 42, 42, 0.8);
+}
+
+/* Animated gradient border */
+@keyframes gradient-border {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.gradient-border {
+  position: relative;
+}
+
+.gradient-border::before {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  background: linear-gradient(135deg, #F97316, #F59E0B, #F97316);
+  background-size: 200% 200%;
+  animation: gradient-border 3s ease infinite;
+  z-index: -1;
+}
+
+/* Loading skeleton */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.skeleton {
+  background: linear-gradient(90deg, #1A1A1A 25%, #2A2A2A 50%, #1A1A1A 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
