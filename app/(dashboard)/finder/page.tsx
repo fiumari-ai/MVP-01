@@ -91,7 +91,7 @@ export default async function FinderPage() {
   }
 
   const picks = picksData as ProductPick[]
-  const weeks = [...new Set(picks.map((p) => p.week_of))].sort((a, b) =>
+  const weeks = Array.from(new Set(picks.map((p) => p.week_of))).sort((a, b) =>
     new Date(b).getTime() - new Date(a).getTime()
   )
 
