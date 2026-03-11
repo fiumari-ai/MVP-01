@@ -1,16 +1,8 @@
-'use client'
-
-import { useState } from 'react'
 import { createClient } from '@/lib/supabase/server'
-import { BadgeCheck, CreditCard, Loader2, ArrowRight } from 'lucide-react'
+import { BadgeCheck, CreditCard, ArrowRight } from 'lucide-react'
 import Link from 'next/link'
-
-async function updateName(userId: string, name: string) {
-  'use server'
-  const { createClient } = await import('@/lib/supabase/server')
-  const supabase = createClient()
-  await supabase.from('profiles').update({ name }).eq('id', userId)
-}
+import NameForm from './NameForm'
+import PortalButton from './PortalButton'
 
 export default async function SettingsPage() {
   const supabase = createClient()
@@ -88,60 +80,5 @@ export default async function SettingsPage() {
         )}
       </section>
     </div>
-  )
-}
-
-function NameForm({ userId, currentName }: { userId: string; currentName: string }) {
-  'use client'
-  return (
-    <form
-      action={async (formData: FormData) => {
-        'use server'
-        const name = formData.get('name') as string
-        await updateName(userId, name)
-      }}
-      className="flex gap-2"
-    >
-      <input
-        name="name"
-        defaultValue={currentName}
-        placeholder="Your name"
-        className="flex-1 bg-brand-dark border border-brand-border hover:border-brand-orange/40 focus:border-brand-orange text-brand-text placeholder:text-brand-muted rounded-xl px-4 py-2.5 text-sm outline-none transition-colors"
-      />
-      <button
-        type="submit"
-        className="bg-brand-surface border border-brand-border hover:border-brand-orange text-brand-text hover:text-brand-orange font-medium text-sm px-4 py-2.5 rounded-xl transition-all"
-      >
-        Save
-      </button>
-    </form>
-  )
-}
-
-function PortalButton({ customerId }: { customerId: string }) {
-  'use client'
-  const [loading, setLoading] = useState(false)
-
-  async function handlePortal() {
-    setLoading(true)
-    const res = await fetch('/api/stripe/portal', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ customerId }),
-    })
-    const data = await res.json()
-    if (data.url) window.location.href = data.url
-    else setLoading(false)
-  }
-
-  return (
-    <button
-      onClick={handlePortal}
-      disabled={loading}
-      className="w-full flex items-center justify-center gap-2 bg-brand-surface border border-brand-border hover:border-brand-orange text-brand-text hover:text-brand-orange font-semibold py-3 rounded-xl transition-all disabled:opacity-50 text-sm"
-    >
-      {loading ? <Loader2 size={16} className="animate-spin" /> : null}
-      Manage Billing & Subscription
-    </button>
   )
 }
